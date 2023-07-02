@@ -11,16 +11,16 @@ function App() {
       const data = await response.json();
 
 
-      console.log(data.search);
+      console.log(data.Search);
   }
 
 useEffect(() => {
-    searchMovies('yugioh')
+    searchMovies('batman')
 }, []);
 
   return (
     <div className="App">
-New app 
+        <h1>New app </h1> 
     </div>
   );
 }
