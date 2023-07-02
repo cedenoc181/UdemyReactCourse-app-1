@@ -1,25 +1,25 @@
 import React from 'react'
 
-function MovieCard({ testMovie }) {
+function MovieCard({ movie }) {
   return (
     <div className='movie'>
     <div>
-      <p>{testMovie.Year}</p>
+      <p>{movie.Year}</p>
     </div>
 
     <div>
       <img 
-      src={testMovie.Poster !== "N/A" ? testMovie.Poster : "https://via.placeholder.com/400"}
-      alt={testMovie.Title}
+      src={movie.Poster !== "N/A" ? movie.Poster : "https://via.placeholder.com/400"}
+      alt={movie.Title}
       />
     </div>
 
     <div>
       <span>
-        {testMovie.Type}
+        {movie.Type}
       </span>
       <h3>
-        {testMovie.Title}
+        {movie.Title}
       </h3>
     </div>
 </div>

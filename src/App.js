@@ -63,7 +63,10 @@ useEffect(() => {
               ?
               (
                 <div className="container">
-                <MovieCard testMovie={testMovie}/> 
+               {
+                movieData.map((movie) => (
+                  <MovieCard movie={movie}/>
+                ))} 
             </div>
               ) : (
                 <div className="empty">
