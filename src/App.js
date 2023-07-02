@@ -1,6 +1,7 @@
 import './App.css';
 import {useEffect} from "react";
 import SearchIcon from "./search.svg";
+import MovieCard from "./MovieCard.jsx"
 
 // my api key 191e2350
 
