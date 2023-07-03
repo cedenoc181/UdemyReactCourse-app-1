@@ -44,7 +44,7 @@ useEffect(() => {
 
   return (
     <div className="app">
-        <h1>Moview hub</h1> 
+        <h1>Movie hub</h1> 
         <div className="search">
             <input 
             placeholder="search for movies"
