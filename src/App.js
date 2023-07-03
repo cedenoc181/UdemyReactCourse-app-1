@@ -5,7 +5,7 @@ import MovieCard from "./MovieCard.jsx"
 
 // my api key 191e2350
 
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=191e2350"
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=191e2350"
 
 
 // const testMovie = {
